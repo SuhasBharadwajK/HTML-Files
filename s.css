@@ -1,0 +1,14 @@
+div {
+    width: 500px;
+    height: 500px;
+    background-color: #47af56;
+    border-radius: 100%;
+}
+.center1 {
+    margin-left:10%;
+    margin-top: 10%;
+}
+img {
+    width: 25%;
+    height: 25%;
+}

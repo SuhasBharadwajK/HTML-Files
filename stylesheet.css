@@ -1,0 +1,30 @@
+html {
+    background-color: #1a2334;
+}
+div {
+    height: 10em;
+    width: 10em;
+    border-radius: 100%;
+    border: 2px solid white;
+    position: relative;
+}
+#top {
+    margin-left: 45%;
+    margin-top: 5%;
+    background-color: #FFCC00
+}
+#left {
+    margin-left: 25%;
+    margin-top: 0%;
+    background-color: #5aefde
+}
+#bottom {
+    margin-left: 45%;
+    margin-top: 0.25%;
+    background-color: #fd4e24
+}
+#right {
+    margin-top: -21em;
+    margin-left: 64%;
+    background-color: #00CCFF;
+}
