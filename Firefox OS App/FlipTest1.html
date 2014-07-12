@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <head>
+        <style type="text/css">
+        .flip{width:250px;height:250px;margin:10px;float:left;} 
+        .flip > .front{
+            position:absolute;
+            transform: perspective(600px) rotateY(0deg);
+            background:#453657; width:250px;height:250px;border-radius:10px;
+            backface-visibility:hidden;
+            transition: transform .5s linear 0s;
+        }
+        .flip  > .back{
+            
+            position:absolute;
+            transform: perspective(600px) rotateY(180deg);
+            background:#33583E; width:250px;height:250px;border-radius:10px;
+            backface-visibility:hidden;
+            transition: transform .5s linear 0s;
+        }
+        .flip:active >.front{
+            transform: perspective(600px) rotateY(-180deg);
+        }
+        .flip:active- > .back{
+            transform: perspective(600px) rotateY(0deg);
+        }
+        </style>
+        <div class="flip">
+            <div class="back">Box 1 back</div>
+            <div class="front">Box 1 front</div>
+        </div>
+        <div class="flip">
+            <div class="back">Box 2 back</div>
+            <div class="front">Box 2 front</div>
+        </div>
+        <div class="flip">
+            <div class="back"><img src="skyrim-art.jpg"/></div>
+            <div class="front">Box 3 front</div>
+        </div>
+        <div class="flip">
+            <div class="back">Box 4 back</div>
+            <div class="front">Box 4 front</div>
+        </div>
+    </head>
+</html>

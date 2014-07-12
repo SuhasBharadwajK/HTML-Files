@@ -1,0 +1,13 @@
+{
+  "name": "Grid",
+  "description": "Retrospect!!",
+  "launch_path": "/a.html",
+  "icons": {
+    "1024": "/u.png"
+  },
+  "developer": {
+    "name": "Suhas Bharadwaj",
+    "url": "http://mozilla.org"
+  },
+  "default_locale": "en"
+}

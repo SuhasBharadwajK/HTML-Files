@@ -1,0 +1,170 @@
+body {
+	font-family: Open Sans;
+	font-size: 17px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/white_brick_wall.png");
+	background-repeat: repeat;
+}
+
+#container {
+	width: 100%;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	z-index: 9999;
+	border-bottom: 6px solid blue;
+	box-shadow: 0px 1px 8px #000;
+}
+
+#header-container {
+	width: 100%;
+	margin: auto;
+}
+
+#logo {
+	width: 35%;
+	float: left;
+}
+
+#logo img {
+	float: left;
+}
+
+#logo h2 {
+	color: white;
+    font-size: 18px;
+    padding-left: 90px;
+    padding-top: 28px;
+}
+
+#header-nav-links {
+	width: 65%;
+	float: right;
+	display:block;
+}
+
+#header-nav-links nav {
+	
+}
+
+#header-nav-links nav a {
+	float: left;
+	display: block;
+	height: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 40px 15px 15px 15px;
+	font-size:14px;
+}
+
+toggle {
+	display: block;
+}
+
+#icon-nav {
+	display:none;
+}
+
+#header-nav-icons {
+	display:none;
+}
+
+#slider {
+	height: 543px;
+	width: 100%;
+	border-bottom: 6px solid blue;
+}
+
+#content-boxes {
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	border-bottom:6px solid blue;
+}
+
+#content-boxes .box {
+	float: left;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 45%;
+}
+
+#content-boxes .box h3 {
+	
+}
+
+#content-boxes .box p {
+	line-height:25px;
+	text-align: justify;
+}
+
+toggle {
+	display: none;
+}
+
+#icon-nav {
+	display:none;
+}
+
+#clients {
+	background-image:url("../images/noisy_net.png");
+	background-repeat:repeat;
+	width: 100%;
+	height: 300px;
+}
+
+#client-space {
+	width: 100%;
+	height: 300px;
+}
+
+.foot-box {
+	float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 20%;
+}
+
+.foot-box h3 {
+	color:white;
+}
+
+.foot-box ul {
+	padding:0px;
+	margin:0px;
+}
+.foot-box ul li {
+	height:30px;
+	list-style-type: none;
+}
+
+.foot-box ul li a {
+	color:white;
+	text-decoration: none;
+}
+
+footer {
+	background-image:url("../images/noisy_net.png");
+	height: 350px;
+	width: 100%;
+}
+
+#footer-nav-links {
+	width: 100%;
+	height: 300px;
+	border-bottom:1px dotted blue;
+}
+
+#copyright {
+	margin-top:10px;
+	height: 50px;
+	width: 100%;
+	color:white;
+	text-align: center;
+}
