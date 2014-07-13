@@ -16,6 +16,12 @@ $(document).ready(function() {
         //$("#right").fadeOut(3000,"linear", function() { $(this).animate({right:'-=500px'},3000)});
         //$("#right").hide().show("fade", {},  {duration:1200}).effect("bounce", { times:3 },  { duration:400}).dequeue();
         //$("#right").fadeOut
+        $("#right")
+            .animate( {opacity: 0.25, right : '-=150px'},1000)
+            //.animate( {opacity: 0.25, right: '-=150px', /*height: "toggle"*/});
+            .fadeTo(1000,0, function() {$(this).hide()});
+        $("#left")
+            .animate( {opacity: 0.25, right : '-=150px', 1000)
     });
     $("#right").click(function() {
         $(this).hide();
