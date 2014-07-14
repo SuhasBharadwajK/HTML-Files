@@ -8,22 +8,22 @@ div {
     border: 2px solid white;
     position: absolute;
 }
-#top {
+.top {
     margin-left: 45%;
     margin-top: 5%;
     background-color: #FFCC00
 }
-#left {
+.left {
     margin-left: 25%;
     margin-top: 17%;
     background-color: #5aefde
 }
-#bottom {
+.bottom {
     margin-left: 45%;
     margin-top: 30%;
     background-color: #fd4e24
 }
-#right {
+.right {
     margin-top: 17%;
     margin-left: 65%;
     background-color: #00CCFF;
