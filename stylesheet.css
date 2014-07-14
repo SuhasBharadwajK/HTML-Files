@@ -6,7 +6,7 @@ div {
     width: 10em;
     border-radius: 100%;
     border: 2px solid white;
-    position: relative;
+    position: absolute;
 }
 #top {
     margin-left: 45%;
@@ -15,16 +15,16 @@ div {
 }
 #left {
     margin-left: 25%;
-    margin-top: 0%;
+    margin-top: 17%;
     background-color: #5aefde
 }
 #bottom {
     margin-left: 45%;
-    margin-top: 0.25%;
+    margin-top: 30%;
     background-color: #fd4e24
 }
 #right {
-    margin-top: -21em;
-    margin-left: 64%;
+    margin-top: 17%;
+    margin-left: 65%;
     background-color: #00CCFF;
 }
