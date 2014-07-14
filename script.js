@@ -42,6 +42,12 @@ $(document).ready(function() {
         $("#top").animate( {opacity: 0.25, top : '-=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
         $(this).animate({left: '+=320px'},2000);
     });
+    $("#showall").click(function() {
+        $("#top").animate({ top: '-=150px'}, 2000);
+        $("#left").fadeTo(1000,1, function() {$(this).show()}).animate({left:'+=150px'},1000);
+        $("#right").show();
+        $("#bottom").show();
+    });
 //    $("#right").click(function() {
 //        $(this).hide();
 //    });
