@@ -2,10 +2,11 @@ var clickCallBacks = jQuery.Callbacks;
 var flag = 1;
 $(document).ready(function starts(){
     $(".btop").click(function() {
+        $(".btop").remove();
         $("#right").animate( {opacity: 0.25, left : '+=150px'},1000).fadeTo(1000,0, function() {$(this).hide()});
         $("#left").animate( {opacity: 0.25, left : '-=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
         $("#bottom").animate( {opacity: 0.25, top : '+=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
-        $("#top").animate({top: '+=150px'},2000, function() {$(".btop").remove()});
+        $("#top").animate({top: '+=200px'},2000);
         $(".buttoncontainer").append('<div class="st"></div>');
         $(".st").click(function() {
             $("#top").animate({ top: '-=150px'}, 2000);
@@ -15,10 +16,11 @@ $(document).ready(function starts(){
         });
     });
     $(".bbottom").click(function() {
-       $("#right").animate( {opacity: 0.25, left : '+=150px'},1000).fadeTo(1000,0, function() {$(this).hide()});
+        $(".bbottom").remove();
+        $("#right").animate( {opacity: 0.25, left : '+=150px'},1000).fadeTo(1000,0, function() {$(this).hide()});
         $("#left").animate( {opacity: 0.25, left : '-=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
         $("#top").animate( {opacity: 0.25, top : '-=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
-        $("#bottom").animate({top: '-=180px'},2000, function() {$(".bbottom").remove()});
+        $("#bottom").animate({top: '-=180px'},2000);
         $(".buttoncontainer").append('<div class="sb"></div>');
         $(".sb").click(function() {
             $("#bottom").animate({ top: '+=150px'}, 2000);
@@ -28,10 +30,11 @@ $(document).ready(function starts(){
         });
     });
     $(".bright").click(function() {
-       $("#bottom").animate( {opacity: 0.25, top : '+=150px'},1000).fadeTo(1000,0, function() {$(this).hide()});
+        $(".bright").remove();
+        $("#bottom").animate( {opacity: 0.25, top : '+=150px'},1000).fadeTo(1000,0, function() {$(this).hide()});
         $("#left").animate( {opacity: 0.25, left : '-=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
         $("#top").animate( {opacity: 0.25, top : '-=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
-        $("#right").animate({left: '-=320px'}, 2000, function() {$(".bright").remove()});
+        $("#right").animate({left: '-=320px'}, 2000);
         $(".buttoncontainer").append('<div class="sr"></div>');
         $(".sr").click(function() {
             $("#right").animate({ left: '+=320px'}, 2000);
@@ -41,10 +44,11 @@ $(document).ready(function starts(){
         });
     });
     $(".bleft").click(function() {
+        $(".bleft").remove();
         $("#bottom").animate( {opacity: 0.25, top : '+=150px'},1000).fadeTo(1000,0, function() {$(this).hide()});
         $("#right").animate( {opacity: 0.25, left : '+=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
         $("#top").animate( {opacity: 0.25, top : '-=150px'}, 1000).fadeTo(1000,0,function() {$(this).hide()});
-        $("#left").animate({left: '+=320px'},2000, function(){$(".bleft").remove()});
+        $("#left").animate({left: '+=320px'},2000);
         $(".buttoncontainer").append('<div class="sl"></div>');
         $(".sl").click(function() {
             $("#left").animate({ left: '-=320px'}, 2000);
